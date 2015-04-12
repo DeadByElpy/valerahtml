@@ -167,7 +167,7 @@ li.flag {
 .iconMarker:last-of-type{
 	margin-bottom: 10px;
 }
-.iconPhone {	
+.iconPhone {
 	background-image: url('img/icon_phone.png');
 	background-repeat: no-repeat;
 	width: 9px;
@@ -184,6 +184,61 @@ li.flag {
 }
 .borderLeft {
 	border-left: 1px solid #eee;
+}
+
+
+.customerList {
+	padding-left: 20px;
+	float: left;
+}
+.customerList .listHeader {
+	height: 20px;
+}
+
+.iconFlag {
+	background-image: url('img/flags_sprite.png');
+	background-repeat: no-repeat;
+	height: 13px;
+	width: 18px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+.iconFlag.ua {
+	background-position: 0 2px;
+}
+.iconFlag.bl {
+	background-position: 0 -28px;
+}
+.iconFlag.ru {
+	background-position: 0 -58px;
+}
+.iconFlag.pl {
+	background-position: 0 -88px;
+}
+.iconFlag.tr {
+	background-position: 0 -118px;
+}
+.iconFlag.ch {
+	background-position: 0 -148px;
+}
+.iconFlag.jp {
+	background-position: 0 -178px;
+}
+.iconFlag.vg {
+	background-position: 0 -208px;
+}
+.iconFlag.de {
+	background-position: 0 -238px;
+}
+.iconFlag.au {
+	background-position: 0 -268px;
+}
+.iconFlag.fin {
+	background-position: 0 -298px;
+}
+.iconFlag.en {
+	background-position: 0 -328px;
 }
 
 #topNavigation {
@@ -314,31 +369,12 @@ li.flag {
 	text-align: center;
 	color:#fff;
 }
-#mainNavigation li:first-child {
-	/*padding-left: 2;
-	margin-left: 20px;*/
-}
 #mainNavigation .active {
 	border-bottom: 2px solid #fff;
 }
 #mainNavigation .dropdown {
-	top: 50px;
+	top: 46px;
 	background-color: #d04918;
 	color: #fff;
 	width: 195px;
-}
-
-.customerList {
-	padding-left: 20px;
-	float: left;
-}
-.customerList .listHeader {
-	height: 20px;
-}
-
-.countryList li {
-	padding-left: 30px;
-}
-.countryList .listHeader {
-	padding-left: 0;
 }
